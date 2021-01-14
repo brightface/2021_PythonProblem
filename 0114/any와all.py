@@ -3,7 +3,7 @@ resultNotAny = not any(a) #하나라도 0이 아닐때가 아닐때 <모두 0일
 resultAny = any(a) #하나라도 0이 아닐때
 resultAll = all(a) #모두가 0이 아닐때
 resultNotAll =not all(a) #하나라도 0일떄
-#k= not all(a) # 의미없네
+#k= not all(a) # 의미없진 않네
 print(f'any([1,2,3,4,5]):{resultNotAny}')
 print(f'any([1,2,3,4,5]):{resultAny}')
 print(f'all([1,2,3,4,5]):{resultAll}')
