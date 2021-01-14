@@ -1,4 +1,4 @@
-a= [1,1,1,0,1]
+a= [1,1,1,0,1] #
 resultNotAny = not any(a) #하나라도 0이 아닐때가 아닐때 <모두 0일떄>
 resultAny = any(a) #하나라도 0이 아닐때
 resultAll = all(a) #모두가 0이 아닐때
