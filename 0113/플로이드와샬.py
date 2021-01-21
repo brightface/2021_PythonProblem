@@ -1,5 +1,5 @@
 import sys
-#sys.stdin = open("input.txt")
+sys.stdin = open("input.txt")
 
 n,s = map(int,input().split())
 #인접행렬
@@ -24,6 +24,7 @@ for k in range(1, n+1): #여기가 가장 중요하네 무엇을 거쳐갈것인
     for i in range(1, n+1):
         for j in range(1, n+1):
             dis[i][j] = min(dis[i][k]+dis[k][j], dis[i][j])
+
 for i in range(1,n+1):
     for j in range(1,n+1):
         if dis[i][j] == 8000:
